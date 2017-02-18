@@ -1,0 +1,14 @@
+.page-title{
+	margin-top: 6rem;
+	margin-bottom: -2.5rem;
+}
+body {
+	 background: #deacac;
+	  /*background-image: url("images/bg1.jpeg");*/
+}
+form[class=main] {
+	margin-top: 5rem;
+}
+div[class=col] {
+	margin-top: 6rem;
+}
