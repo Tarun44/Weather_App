@@ -1,10 +1,8 @@
-var React =require('react');
-
-
+var React = require('react');
 
 var About = (props) => {
-	return(
-    <div className="about">
+  return (
+    <div>
       <h1 className="text-center">About</h1>
       <p>
         This is a weather application build on React. I have built this
@@ -22,13 +20,9 @@ var About = (props) => {
           <a href="http://openweathermap.org">Open Weather Map</a> - I used
             Open Weather Map to search for weather data by city name.
         </li>
-        <li>
-          <a href="http://foundation.zurb.com/sites/docs/">Foundation</a> - I used
-            Foundation for styling the app.
-        </li>
       </ul>
     </div>
-			)
+  )
 };
 
 module.exports = About;
